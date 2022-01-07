@@ -1,6 +1,6 @@
 /* eslint-disable indent */
 // Require the necessary discord.js classes
-const { Client, Intents, Guild } = require('discord.js');
+const { Client, Intents } = require('discord.js');
 const { token } = require('./config.json');
 
 // Defining my Intents, here I want to use guilds and messages.
