@@ -21,7 +21,7 @@ client.on('messageCreate', (message) => {
 		message.reply(`Hello ma fucking brother ${message.author} 😎🤑`);
 	}
     else if (message.content === `${prefix}how are you brotha?`) {
-        message.reply(`Everything is right ma big brotha ${message.member.user}`);
+        message.reply(`Everything is right ma big brotha ${message.member.user} 😎`);
     }
 });
 // Login to Discord with your client's token
